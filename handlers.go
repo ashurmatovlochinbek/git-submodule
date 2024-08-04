@@ -1,4 +1,4 @@
-package main
+package submodule
 
 import (
 	"encoding/json"

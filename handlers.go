@@ -11,3 +11,9 @@ var HandlerF1 = func(writer http.ResponseWriter, request *http.Request) {
 	json, _ := json.Marshal(uuidValue)
 	writer.Write(json)
 }
+
+var HandlerF2 = func(writer http.ResponseWriter, request *http.Request) {
+	getValue := "Getting value"
+	json, _ := json.Marshal(getValue)
+	writer.Write(json)
+}
